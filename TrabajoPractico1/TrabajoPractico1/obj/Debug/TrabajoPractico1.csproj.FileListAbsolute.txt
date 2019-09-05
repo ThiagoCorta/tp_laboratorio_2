@@ -1,0 +1,9 @@
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\bin\Debug\TrabajoPractico1.exe.config
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\bin\Debug\TrabajoPractico1.exe
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\bin\Debug\TrabajoPractico1.pdb
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\obj\Debug\TrabajoPractico1.csprojAssemblyReference.cache
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\obj\Debug\TrabajoPractico1.MiCalculadora.resources
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\obj\Debug\TrabajoPractico1.csproj.GenerateResource.cache
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\obj\Debug\TrabajoPractico1.csproj.CoreCompileInputs.cache
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\obj\Debug\TrabajoPractico1.exe
+C:\Users\thiago.tomas.corta\source\repos\TrabajoPractico1\TrabajoPractico1\obj\Debug\TrabajoPractico1.pdb

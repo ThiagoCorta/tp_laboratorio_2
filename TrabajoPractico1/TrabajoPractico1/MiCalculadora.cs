@@ -16,5 +16,20 @@ namespace TrabajoPractico1
         {
             InitializeComponent();
         }
+
+        private void MiCalculadora_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
