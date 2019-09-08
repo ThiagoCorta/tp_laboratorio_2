@@ -22,7 +22,7 @@ namespace TrabajoPractico1
 
         public Numero(string strNum)
         {
-            double.TryParse(strNum, out this.numero);
+            this.numero = ValidarNumero(strNum);
         }
 
         public double ValidarNumero(string strNum)
@@ -63,13 +63,14 @@ namespace TrabajoPractico1
 
         public string DecimalBinario(double x)
         {
-            long m = BitConverter.DoubleToInt64Bits(x);
+            long m = 0;
+            m = BitConverter.DoubleToInt64Bits(x);
             return Convert.ToString(m, 2);
         }
 
         public double BinarioDecimal(string x)
         {
-            return BitConverter.Int64BitsToDouble(Convert.ToInt64(x, 2));
+            return BitConverter.Int64BitsToDouble(Convert.ToInt64(x, 10));
 
         }
 

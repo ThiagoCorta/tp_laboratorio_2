@@ -13,11 +13,8 @@ namespace TrabajoPractico1
         static void Main(string[] args)
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(true);
             Application.Run(new MiCalculadora());
-
-            Numero num1 = new Numero();
-            Numero num2 = new Numero();
 
             Console.ReadKey();
         }

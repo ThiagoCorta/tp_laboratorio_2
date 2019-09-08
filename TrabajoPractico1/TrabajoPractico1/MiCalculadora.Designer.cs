@@ -59,6 +59,7 @@ namespace TrabajoPractico1
             this.button1.TabIndex = 0;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -68,6 +69,7 @@ namespace TrabajoPractico1
             this.button2.TabIndex = 1;
             this.button2.Text = "Limpiar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
@@ -97,6 +99,7 @@ namespace TrabajoPractico1
             this.button5.TabIndex = 4;
             this.button5.Text = "Convertir a binario";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // textBox1
             // 
@@ -105,6 +108,7 @@ namespace TrabajoPractico1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(177, 58);
             this.textBox1.TabIndex = 5;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -113,15 +117,19 @@ namespace TrabajoPractico1
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(171, 58);
             this.textBox2.TabIndex = 6;
+            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(532, 25);
+            this.label1.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(360, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label1.Size = new System.Drawing.Size(262, 62);
             this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
+            this.label1.Text = "Resultado";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // listBox1
             // 
@@ -136,6 +144,7 @@ namespace TrabajoPractico1
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 64);
             this.listBox1.TabIndex = 9;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.ListBox1_SelectedIndexChanged);
             // 
             // MiCalculadora
             // 
@@ -169,12 +178,6 @@ namespace TrabajoPractico1
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-          //  e = this.Close();
-        }
-
         private ListBox listBox1;
     }
 }
