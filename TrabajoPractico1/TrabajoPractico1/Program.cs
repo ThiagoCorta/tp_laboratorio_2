@@ -13,7 +13,7 @@ namespace TrabajoPractico1
         static void Main(string[] args)
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(true);
+            Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MiCalculadora());
 
             Console.ReadKey();

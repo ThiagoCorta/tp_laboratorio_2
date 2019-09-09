@@ -36,20 +36,14 @@ namespace TrabajoPractico1
 
         private void Button3_Click(object sender, EventArgs e)
         {
-           
-                resultado = calc.Operar(numero1, numero2, operador);
-                this.label1.Text = resultado.ToString();
-            
-            
+            resultado = calc.Operar(numero1, numero2, operador);
+            this.label1.Text = resultado.ToString();
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-
             string numactual = label1.Text;
-            this.label1.Text = "";
-            this.label1.Text = numero1.BinarioDecimal(numactual).ToString();
-            
+            label1.Text = numero1.BinarioDecimal(numactual).ToString();
 
         }
 
@@ -60,38 +54,28 @@ namespace TrabajoPractico1
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-
-            numero1.SetNumero = numero1.ValidarNumero(textBox1.Text);
-            /*double aux = numero1.ValidarNumero(sender.ToString());
-            numero1.SetNumero = aux;*/
-            
-
-            
+           numero1.SetNumero = numero1.ValidarNumero(textBox1.Text);
         }
 
         private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             operador = this.listBox1.SelectedItem.ToString();
-
         }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
            numero2.SetNumero = numero2.ValidarNumero(textBox2.Text);
-            /*double aux = numero2.ValidarNumero(sender.ToString());
-            numero2.SetNumero = aux;*/
-
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
             this.textBox1.Text = String.Empty;
-           this.textBox2.Text = String.Empty;
+            this.textBox2.Text = String.Empty;
+            this.label1.Text = "0";
         }
 
         private void Label1_Click(object sender, EventArgs e)
         {
-            
             this.label1.Text = resultado.ToString();
         }
 

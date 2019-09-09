@@ -122,7 +122,7 @@ namespace TrabajoPractico1
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(360, 9);
+            this.label1.Location = new System.Drawing.Point(343, 9);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label1.Size = new System.Drawing.Size(262, 62);
