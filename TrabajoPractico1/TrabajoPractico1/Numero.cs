@@ -63,15 +63,22 @@ namespace TrabajoPractico1
 
         public string DecimalBinario(double x)
         {
-            long m = 0;
-            m = BitConverter.DoubleToInt64Bits(x);
-            return Convert.ToString(m, 2);
+            string resultado = "";
+            int numIng = Convert.ToInt32(x);
+
+            while (numIng > 1)
+            {
+                int resto = numIng % 2;
+                resultado = Convert.ToString(resto) + resultado;
+                numIng /= 2;
+            }
+            return resultado = Convert.ToString(numIng) + resultado;
+            
         }
 
         public double BinarioDecimal(string x)
         {
-            return BitConverter.Int64BitsToDouble(Convert.ToInt64(x, 10));
-
+            return Convert.ToDouble(x);
         }
 
     }

@@ -36,17 +36,21 @@ namespace TrabajoPractico1
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            if (button3.Enabled)
-            {
+           
                 resultado = calc.Operar(numero1, numero2, operador);
                 this.label1.Text = resultado.ToString();
-            }
+            
             
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
+
+            string numactual = label1.Text;
+            this.label1.Text = "";
+            this.label1.Text = numero1.BinarioDecimal(numactual).ToString();
             
+
         }
 
         private void Button1_Click(object sender, EventArgs e)
