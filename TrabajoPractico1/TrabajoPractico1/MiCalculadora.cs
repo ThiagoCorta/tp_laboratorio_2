@@ -72,6 +72,8 @@ namespace TrabajoPractico1
             this.textBox1.Text = String.Empty;
             this.textBox2.Text = String.Empty;
             this.label1.Text = "0";
+            resultado = 0;
+
         }
 
         private void Label1_Click(object sender, EventArgs e)
