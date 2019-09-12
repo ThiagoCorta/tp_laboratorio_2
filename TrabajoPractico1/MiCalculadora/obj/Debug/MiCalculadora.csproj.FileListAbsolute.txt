@@ -1,0 +1,13 @@
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\MiCalculadora\obj\Debug\MiCalculadora.Form1.resources
