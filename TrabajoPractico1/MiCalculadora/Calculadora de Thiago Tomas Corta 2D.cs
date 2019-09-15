@@ -29,6 +29,7 @@ namespace MiCalculadora
                 Numero operador2 = new Numero(tbOperador2.Text);
                 lbResultado.Text = calc.Operar(operador1, operador2, cbOperadores.Text).ToString();
                 btnBinConvert.Enabled = true;
+                btnDecConvert.Enabled = false;
             }
             else
             {
@@ -75,6 +76,8 @@ namespace MiCalculadora
         {
             Numero numDec = new Numero();
             lbResultado.Text = numDec.BinarioDecimal(lbResultado.Text).ToString();
+            btnDecConvert.Enabled = false;
+            btnBinConvert.Enabled = true;
         }
 
         private void BtnBinConvert_Click(object sender, EventArgs e)
@@ -85,6 +88,7 @@ namespace MiCalculadora
                 Numero numBin = new Numero();
                 lbResultado.Text = numBin.DecimalBinario(lbResultado.Text);
                 btnDecConvert.Enabled = true;
+                btnBinConvert.Enabled = false;
             }
             else
             {
