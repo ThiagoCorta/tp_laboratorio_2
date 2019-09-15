@@ -28,6 +28,7 @@ namespace MiCalculadora
                 Numero operador1 = new Numero(tbOperador1.Text);
                 Numero operador2 = new Numero(tbOperador2.Text);
                 lbResultado.Text = calc.Operar(operador1, operador2, cbOperadores.Text).ToString();
+                btnBinConvert.Enabled = true;
             }
             else
             {
@@ -42,6 +43,7 @@ namespace MiCalculadora
         private void CalculadoraThiagoTomasCorta2D_Load(object sender, EventArgs e)
         {
             this.CenterToScreen();
+            this.Limpiar();
         }
 
         private void CbOperadores_SelectedIndexChanged(object sender, EventArgs e)
@@ -82,10 +84,11 @@ namespace MiCalculadora
             {
                 Numero numBin = new Numero();
                 lbResultado.Text = numBin.DecimalBinario(lbResultado.Text);
+                btnDecConvert.Enabled = true;
             }
             else
             {
-                MessageBox.Show("Error, numero muy chico u.u", "Atencion!");
+                MessageBox.Show("Error, solo se pueden transformar a binario numeros enteros", "Atencion!");
                 this.Limpiar();
                 
             }
@@ -104,6 +107,8 @@ namespace MiCalculadora
             tbOperador2.Text = String.Empty;
             cbOperadores.SelectedItem = "+";
             cbOperadores.Text = "Operador";
+            btnBinConvert.Enabled = false;
+            btnDecConvert.Enabled = false;
             
         }
     }

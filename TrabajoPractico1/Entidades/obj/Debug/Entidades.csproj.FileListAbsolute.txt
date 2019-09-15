@@ -4,3 +4,9 @@ C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\Entidades\bin\Debug\Entid
 C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\Entidades\bin\Debug\Entidades.pdb
 C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\Entidades\obj\Debug\Entidades.dll
 C:\Users\thiago.tomas.corta\source\repos\MiCalculadora\Entidades\obj\Debug\Entidades.pdb
+C:\Users\thiag\Desktop\tp_laboratorio_2\TrabajoPractico1\Entidades\bin\Debug\Entidades.dll
+C:\Users\thiag\Desktop\tp_laboratorio_2\TrabajoPractico1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\thiag\Desktop\tp_laboratorio_2\TrabajoPractico1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\thiag\Desktop\tp_laboratorio_2\TrabajoPractico1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\tp_laboratorio_2\TrabajoPractico1\Entidades\obj\Debug\Entidades.dll
+C:\Users\thiag\Desktop\tp_laboratorio_2\TrabajoPractico1\Entidades\obj\Debug\Entidades.pdb
