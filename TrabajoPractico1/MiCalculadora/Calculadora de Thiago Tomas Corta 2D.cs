@@ -19,6 +19,12 @@ namespace MiCalculadora
             
         }
 
+        /// <summary>
+        /// Instancia la calculadora y ambos operadores, consigue los valores de las textbox y valida lo necesario para poder operar.
+        /// habilita el boton de convertir a binario y calcula la operacion y la escribe en el lbl de resultado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnOperar_Click(object sender, EventArgs e)
         {
             double aux = 0;
@@ -41,6 +47,12 @@ namespace MiCalculadora
 
         }
 
+        /// <summary>
+        /// Centra el windows form a la pantalla.
+        /// Limpia todos los campos para dejarlo de forma correcta.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CalculadoraThiagoTomasCorta2D_Load(object sender, EventArgs e)
         {
             this.CenterToScreen();
@@ -52,11 +64,21 @@ namespace MiCalculadora
 
         }
 
+        /// <summary>
+        /// Cierra el forms
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// Limpia los campos y setea todo de cero.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
             this.Limpiar();
@@ -72,6 +94,12 @@ namespace MiCalculadora
 
         }
 
+        /// <summary>
+        /// Instancia un numero decimal, consigue el resultado que se quiere pasar a DEC y lo muestra en pantalla.
+        /// Habilita el boton de convertir a binario y se desactiva el boton de convertir a decimal.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnDecConvert_Click(object sender, EventArgs e)
         {
             Numero numDec = new Numero();
@@ -80,6 +108,12 @@ namespace MiCalculadora
             btnBinConvert.Enabled = true;
         }
 
+        /// <summary>
+        /// Convierte de decimal a binario
+        /// Se desactiva el boton para convertir a binario y se activa el de convertir a decimal
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnBinConvert_Click(object sender, EventArgs e)
         {
             int aux = 0;
@@ -104,6 +138,10 @@ namespace MiCalculadora
 
         }
 
+        /// <summary>
+        /// Borra los datos de los TextBox, ComboBox y Label de la pantalla.
+        /// Deshabilita los botones de convertir a binario y a decimal.
+        /// </summary>
         private void Limpiar()
         {
             lbResultado.Text = String.Empty;

@@ -8,6 +8,15 @@ namespace Entidades
 {
     public class Calculadora
     {
+        /// <summary>
+        /// Recive dos instancias de la clase Numero y un string.
+        /// Realiza la operacion matematica segun el signo que se paso como parametro (string)
+        /// Retorna el valor de la operacion
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         public double Operar(Numero n1, Numero n2, string operador)
         {
 
@@ -30,9 +39,15 @@ namespace Entidades
             return cuenta;
         }
 
+        /// <summary>
+        /// Recive un string y valida cual de los operadores es, + - / * etc y lo devuelve.
+        /// Caso contrario que no sea ninguno de esos, devuelve +.
+        /// </summary>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         private static string ValidarOperador(string operador)
         {
-
+           
             if (operador != "-" && operador != "+" && operador != "/" && operador != "*")
             {
                 return "+";

@@ -42,9 +42,10 @@
             // 
             // btnOperar
             // 
-            this.btnOperar.Location = new System.Drawing.Point(32, 180);
+            this.btnOperar.Location = new System.Drawing.Point(21, 117);
+            this.btnOperar.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperar.Name = "btnOperar";
-            this.btnOperar.Size = new System.Drawing.Size(197, 65);
+            this.btnOperar.Size = new System.Drawing.Size(131, 42);
             this.btnOperar.TabIndex = 2;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(244, 180);
+            this.btnLimpiar.Location = new System.Drawing.Point(163, 117);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(197, 65);
+            this.btnLimpiar.Size = new System.Drawing.Size(131, 42);
             this.btnLimpiar.TabIndex = 3;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -62,9 +64,10 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(456, 180);
+            this.btnCerrar.Location = new System.Drawing.Point(304, 117);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(197, 65);
+            this.btnCerrar.Size = new System.Drawing.Size(131, 42);
             this.btnCerrar.TabIndex = 4;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
@@ -72,9 +75,10 @@
             // 
             // btnDecConvert
             // 
-            this.btnDecConvert.Location = new System.Drawing.Point(349, 274);
+            this.btnDecConvert.Location = new System.Drawing.Point(233, 178);
+            this.btnDecConvert.Margin = new System.Windows.Forms.Padding(2);
             this.btnDecConvert.Name = "btnDecConvert";
-            this.btnDecConvert.Size = new System.Drawing.Size(304, 65);
+            this.btnDecConvert.Size = new System.Drawing.Size(203, 42);
             this.btnDecConvert.TabIndex = 8;
             this.btnDecConvert.Text = "Convertir a decimal";
             this.btnDecConvert.UseVisualStyleBackColor = true;
@@ -82,9 +86,10 @@
             // 
             // btnBinConvert
             // 
-            this.btnBinConvert.Location = new System.Drawing.Point(32, 274);
+            this.btnBinConvert.Location = new System.Drawing.Point(21, 178);
+            this.btnBinConvert.Margin = new System.Windows.Forms.Padding(2);
             this.btnBinConvert.Name = "btnBinConvert";
-            this.btnBinConvert.Size = new System.Drawing.Size(304, 65);
+            this.btnBinConvert.Size = new System.Drawing.Size(203, 42);
             this.btnBinConvert.TabIndex = 9;
             this.btnBinConvert.Text = "Convertir a binario";
             this.btnBinConvert.UseVisualStyleBackColor = true;
@@ -92,19 +97,21 @@
             // 
             // tbOperador1
             // 
-            this.tbOperador1.Location = new System.Drawing.Point(32, 86);
+            this.tbOperador1.Location = new System.Drawing.Point(21, 56);
+            this.tbOperador1.Margin = new System.Windows.Forms.Padding(2);
             this.tbOperador1.Multiline = true;
             this.tbOperador1.Name = "tbOperador1";
-            this.tbOperador1.Size = new System.Drawing.Size(197, 66);
+            this.tbOperador1.Size = new System.Drawing.Size(133, 44);
             this.tbOperador1.TabIndex = 10;
             this.tbOperador1.TextChanged += new System.EventHandler(this.TbOperador1_TextChanged);
             // 
             // tbOperador2
             // 
-            this.tbOperador2.Location = new System.Drawing.Point(456, 86);
+            this.tbOperador2.Location = new System.Drawing.Point(304, 56);
+            this.tbOperador2.Margin = new System.Windows.Forms.Padding(2);
             this.tbOperador2.Multiline = true;
             this.tbOperador2.Name = "tbOperador2";
-            this.tbOperador2.Size = new System.Drawing.Size(197, 66);
+            this.tbOperador2.Size = new System.Drawing.Size(133, 44);
             this.tbOperador2.TabIndex = 11;
             this.tbOperador2.TextChanged += new System.EventHandler(this.TbOperador2_TextChanged);
             // 
@@ -121,9 +128,10 @@
             "-",
             "*",
             "/"});
-            this.cbOperadores.Location = new System.Drawing.Point(244, 86);
+            this.cbOperadores.Location = new System.Drawing.Point(163, 56);
+            this.cbOperadores.Margin = new System.Windows.Forms.Padding(2);
             this.cbOperadores.Name = "cbOperadores";
-            this.cbOperadores.Size = new System.Drawing.Size(197, 28);
+            this.cbOperadores.Size = new System.Drawing.Size(133, 21);
             this.cbOperadores.TabIndex = 14;
             this.cbOperadores.Text = "Operador";
             this.cbOperadores.SelectedIndexChanged += new System.EventHandler(this.CbOperadores_SelectedIndexChanged);
@@ -132,27 +140,29 @@
             // 
             this.lbResultado.AutoSize = true;
             this.lbResultado.Font = new System.Drawing.Font("Arial", 10F);
-            this.lbResultado.Location = new System.Drawing.Point(447, 23);
+            this.lbResultado.Location = new System.Drawing.Point(272, 13);
+            this.lbResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbResultado.Name = "lbResultado";
-            this.lbResultado.Size = new System.Drawing.Size(42, 23);
+            this.lbResultado.Size = new System.Drawing.Size(39, 16);
             this.lbResultado.TabIndex = 15;
-            this.lbResultado.Text = "";
+
             this.lbResultado.Click += new System.EventHandler(this.LbResultado_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(347, 23);
+            this.label1.Location = new System.Drawing.Point(204, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 20);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 16;
             this.label1.Text = "Resultado : ";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 375);
+            this.ClientSize = new System.Drawing.Size(457, 244);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbResultado);
             this.Controls.Add(this.cbOperadores);
@@ -163,6 +173,7 @@
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnOperar);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Calculadora Thiago Tomas Corta 2D";
             this.Load += new System.EventHandler(this.CalculadoraThiagoTomasCorta2D_Load);
