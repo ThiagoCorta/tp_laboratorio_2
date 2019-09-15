@@ -33,7 +33,7 @@ namespace MiCalculadora
             else
             {
 
-                var result = System.Windows.Forms.MessageBox.Show("Error verifique los campos.", "Atencion", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Question, System.Windows.Forms.MessageBoxDefaultButton.Button1, (System.Windows.Forms.MessageBoxOptions)8192 /*MB_TASKMODAL*/);
+                MessageBox.Show("Error verifique los campos.", "Atencion", MessageBoxButtons.OK,MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, (MessageBoxOptions)8192 /*MB_TASKMODAL*/);
                 this.Limpiar();
             }
 
@@ -88,7 +88,7 @@ namespace MiCalculadora
             }
             else
             {
-                MessageBox.Show("Error, solo se pueden transformar a binario numeros enteros", "Atencion!");
+                MessageBox.Show("Error, solo se pueden transformar a binario numeros enteros", "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, (MessageBoxOptions)8192 /*MB_TASKMODAL*/);
                 this.Limpiar();
                 
             }
@@ -109,7 +109,8 @@ namespace MiCalculadora
             cbOperadores.Text = "Operador";
             btnBinConvert.Enabled = false;
             btnDecConvert.Enabled = false;
-            
+           
+
         }
     }
 }

@@ -86,17 +86,14 @@ namespace Entidades
 
         public double BinarioDecimal(string x)
         {
-            if (string.IsNullOrEmpty(x))
-                throw new ArgumentNullException("x");
-
             double d = 0;
-            foreach (var c in x)
+            foreach (var num in x)
             {
                 d *= 2;
-                if (c == '1')
+                if (num == '1')
                     d += 1;
-                else if (c != '0')
-                    throw new FormatException();
+                else if (num != '0')
+                    d = 0;
             }
 
             return d;
