@@ -50,11 +50,20 @@ namespace MiCalculadora
         /// <summary>
         /// Centra el windows form a la pantalla.
         /// Limpia todos los campos para dejarlo de forma correcta.
+        /// Defino los tabindex
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void CalculadoraThiagoTomasCorta2D_Load(object sender, EventArgs e)
         {
+            tbOperador1.TabIndex = 0;
+            cbOperadores.TabIndex = 1;
+            tbOperador2.TabIndex = 2;
+            btnOperar.TabIndex = 3;
+            btnBinConvert.TabIndex = 4;
+            btnDecConvert.TabIndex = 5;
+            btnLimpiar.TabIndex = 6;
+            btnCerrar.TabIndex = 7;
             this.CenterToScreen();
             this.Limpiar();
         }
