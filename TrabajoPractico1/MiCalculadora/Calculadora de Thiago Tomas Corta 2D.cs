@@ -64,6 +64,9 @@ namespace MiCalculadora
             btnDecConvert.TabIndex = 5;
             btnLimpiar.TabIndex = 6;
             btnCerrar.TabIndex = 7;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.CenterToScreen();
             this.Limpiar();
         }
