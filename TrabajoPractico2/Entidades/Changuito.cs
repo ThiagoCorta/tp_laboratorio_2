@@ -36,7 +36,7 @@ namespace Entidades_2018
         /// <returns></returns>
         public override string ToString()
         {
-            return this.Mostrar(this, ETipo.Todos);
+            return Changuito.Mostrar(this, ETipo.Todos);
         }
         #endregion
 
@@ -49,7 +49,7 @@ namespace Entidades_2018
         /// <param name="c">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public string Mostrar(Changuito c, ETipo tipo)
+        public static string Mostrar(Changuito c, ETipo tipo)
         {
 
             StringBuilder sb = new StringBuilder();
@@ -86,9 +86,9 @@ namespace Entidades_2018
         #region "Operadores"
 
         /// <summary>
-        /// Busca si el elemento esta contenido en la lista
+        /// un changuito y un producto son iguales si el producto esta contenido en la lista del changuito
         /// </summary>
-        /// <param name="c">Objeto donde se contiene la lista</param>
+        /// <param name="c">Objeto Changuito</param>
         /// <param name="p">Objeto a buscar</param>
         /// <returns></returns>
         /// 
@@ -106,9 +106,9 @@ namespace Entidades_2018
         }
 
         /// <summary>
-        /// Busca si el elemento esta contenido en la lista
+        /// un changuito y un producto son distintos si el producto no esta contenido en la lista del changuito
         /// </summary>
-        /// <param name="c">Objeto donde se contiene la lista</param>
+        /// <param name="c">objeto Changuito</param>
         /// <param name="p">Objeto a buscar</param>
         /// <returns></returns>
         /// 
