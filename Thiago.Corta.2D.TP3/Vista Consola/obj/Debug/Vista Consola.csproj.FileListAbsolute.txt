@@ -1,0 +1,14 @@
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Vista Consola.exe.config
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Vista Consola.exe
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Vista Consola.pdb
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Clases Abstractas.dll
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Excepciones.dll
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Clases Abstractas.pdb
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\bin\Debug\Excepciones.pdb
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\obj\Debug\Vista Consola.csprojAssemblyReference.cache
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\obj\Debug\Vista Consola.csproj.CoreCompileInputs.cache
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\obj\Debug\Vista Consola.csproj.CopyComplete
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\obj\Debug\Vista Consola.exe
+C:\Users\thiago.tomas.corta\source\repos\Thiago.Corta.2D.TP3\Vista Consola\obj\Debug\Vista Consola.pdb
