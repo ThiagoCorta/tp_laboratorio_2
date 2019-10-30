@@ -111,7 +111,12 @@ namespace Clases_Abstractas
 
         #region Metodos
 
-
+        /// <summary>
+        /// Valida que el entero que le llega como parametro este dentro de los rangos y en su contrario tira excepciones
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dni"></param>
+        /// <returns>el dni validado si pudo, 0 si no pudo </returns>
         private int validarDni(ENacionalidad nacionalidad, int dni)
         {
             int aux = 0;
@@ -138,6 +143,12 @@ namespace Clases_Abstractas
             return aux;
         }
 
+        /// <summary>
+        /// Le llega un dni como string y lo parsea a entero
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dni"></param>
+        /// <returns>0 si no pudo el dni en entero si pudo</returns>
         private int validarDni(ENacionalidad nacionalidad, string dni)
         {
             int auxDni;
@@ -150,9 +161,13 @@ namespace Clases_Abstractas
 
         }
 
+        /// <summary>
+        /// Valida que la cadena que se le manda como parametro tenga cierto formato, en este caso solo caracteres de a-z y A-Z
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns>true si cumple, false si no cumple</returns>
         private Boolean validarString(string str)
         {
-
             if (Regex.IsMatch(str, @"^[a-zA-z]+$"))
             {
                 return true;
@@ -160,6 +175,10 @@ namespace Clases_Abstractas
             return false;
         }
 
+        /// <summary>
+        /// Crea una cadena con la informacion de la persona
+        /// </summary>
+        /// <returns>La cadena con la info de la persona</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
