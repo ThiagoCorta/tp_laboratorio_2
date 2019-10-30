@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -103,7 +103,7 @@ namespace Vista_Consola
             Console.Clear();
             try
             {
-                //Universidad.Guardar(uni);
+                Universidad.Guardar(uni);
                 Console.WriteLine("Archivo de Universidad guardado.");
             }
             catch (ArchivosException e)
@@ -113,9 +113,9 @@ namespace Vista_Consola
             try
             {
                 int jornada = 0;
-                //Jornada.Guardar(uni[jornada]);
+                Jornada.Guardar(uni[jornada]);
                 Console.WriteLine("Archivo de Jornada {0} guardado.", jornada);
-                //Console.WriteLine(Jornada.Leer());
+                Console.WriteLine(Jornada.Leer());
             }
             catch (ArchivosException e)
             {

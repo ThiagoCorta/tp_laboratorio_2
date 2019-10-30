@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,6 +43,7 @@ namespace Clases_Abstractas
         }
 
         #endregion
+
         #region Propiedades
         public string Nombre
         {
@@ -108,7 +109,6 @@ namespace Clases_Abstractas
         }
         #endregion
 
-
         #region Metodos
 
 
@@ -161,8 +161,7 @@ namespace Clases_Abstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Nombre : {this.nombre}");
-            sb.AppendLine($"Apellido : {this.apellido}");
+            sb.AppendLine($"NOMBRE COMPLETO : {this.apellido},{this.nombre}");
             sb.AppendLine($"Nacionalidad : {this.nacionalidad}");
             sb.AppendLine($"DNI: {this.dni}");
             return sb.ToString();
