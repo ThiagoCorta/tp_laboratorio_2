@@ -9,7 +9,7 @@ using Excepciones;
 namespace Clases_Abstractas
 {
 
-    
+
     public abstract class Persona
     {
         private string nombre;
@@ -115,17 +115,18 @@ namespace Clases_Abstractas
         private int validarDni(ENacionalidad nacionalidad, int dni)
         {
             int aux = 0;
+            if (dni == 0) throw new DniInvalidoException("Dni ingresado es invalido");
             switch (nacionalidad)
             {
                 case ENacionalidad.Argentino:
-                    if (!(dni > 0 && dni < 90000000))
+                    if (!(dni >= 1 && dni < 90000000))
                     {
                         throw new NacionalidadInvalidaException("Dni invalido para persona Argentina");
                     }
                     else aux = dni;
                     break;
                 case ENacionalidad.Extranjero:
-                    if (!(dni > 90000000 && dni < 100000000))
+                    if (!(dni >= 90000000 && dni < 100000000))
                     {
                         throw new NacionalidadInvalidaException("Dni invalido para persona extranjera");
                     }
@@ -140,6 +141,7 @@ namespace Clases_Abstractas
         private int validarDni(ENacionalidad nacionalidad, string dni)
         {
             int auxDni;
+
             if (int.TryParse(dni, out auxDni))
             {
                 return this.validarDni(nacionalidad, auxDni);
