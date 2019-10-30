@@ -10,3 +10,9 @@ C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Deb
 C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb

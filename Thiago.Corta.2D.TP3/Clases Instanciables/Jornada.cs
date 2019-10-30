@@ -76,7 +76,7 @@ namespace Clases_Instanciables
     {
       string aux = "";
       Texto txt = new Texto();
-      txt.Guardar("jornada.log", aux);
+      txt.Leer("jornada.log", out aux);
       return aux;
     }
 
