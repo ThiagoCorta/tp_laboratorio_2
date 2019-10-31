@@ -13,3 +13,6 @@ C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivo
 C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivos\obj\Debug\Archivos.dll
 C:\Users\thiago.tomas.corta\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2\Thiago.Corta.2D.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
