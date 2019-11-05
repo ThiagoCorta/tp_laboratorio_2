@@ -47,7 +47,7 @@ namespace Clases_Abstractas
         /// <returns>true si es o false si no es</returns>
         public override bool Equals(object obj)
         {
-            if (obj.GetType() == typeof(Universitario))
+            if (obj is Universitario)
             {
                 return true;
             }
@@ -68,7 +68,7 @@ namespace Clases_Abstractas
         {
             if (p1.Equals(p2))
             {
-                if (p1.DNI == p2.DNI && p1.legajo == p2.legajo)
+                if (p1.DNI == p2.DNI || p1.legajo == p2.legajo)
                 {
                     return true;
                 }
