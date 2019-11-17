@@ -9,43 +9,39 @@ namespace Entidades
 {
     public static class GuardaString
     {
-        public static bool nombre(this String texto, string archivo)
+        /// <summary>
+        /// Metodo de extension a la clase string
+        /// Guarda el texto en el archivo que se ubica en el desktop
+        /// Si el archivo ya existe agrega info en el si no lo crea
+        /// </summary>
+        /// <param name="texto"></param>
+        /// <param name="archivo"></param>
+        /// <returns>True si pudo agregar la info false si ocurrio algo o se lanzo una excepcion</returns>
+        public static bool Guardar(this string texto, string archivo)
         {
             bool aux = false;
             if (!string.IsNullOrEmpty(archivo) && !string.IsNullOrEmpty(texto))
             {
-                string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                if (!File.Exists(Path.Combine(desktop, archivo)))
+                string desktop = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), archivo);
+                bool append = File.Exists(desktop);
+                StreamWriter sw = new StreamWriter(desktop, append);
+                try
                 {
-                    try
-                    {
-                        StreamWriter sw = new StreamWriter(Path.Combine(desktop, archivo));
-                        sw.WriteLine(texto);
-                        sw.Close();
-                        aux = true;
-                    }
-                    catch
-                    {
-                        throw new FileLoadException();
-                    }
+                    sw.WriteLine(texto);
+                    aux = true;
                 }
-                else if (File.Exists(Path.Combine(desktop, archivo)))
+                catch (Exception e)
                 {
-                    try
-                    {
-                        StreamWriter sw = File.AppendText(Path.Combine(desktop, archivo));
-                        sw.WriteLine(texto);
-                        sw.Close();
-                    }
-                    catch
-                    {
-                        throw new FileLoadException();
-                    }
+                    throw new Exception("Error al escribir el archivo", e);
+
+                }
+                finally
+                {
+                    sw.Close();
 
                 }
             }
             return aux;
         }
-
     }
 }
